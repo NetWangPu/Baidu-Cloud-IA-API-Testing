@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px; /*页边距*/
+    margin: 0px; /*外边距*/
+    font-weight: 400; /*字体粗细*/
+    font-size: 12px; /*字体大小*/
+}
+
+#box {
+    width: 100%; /*宽度*/
+    height: 100%; /*高度*/
+    display: flex; /*弹性布局*/
+    flex-direction: column; /*弹性布局方向*/
+}
+
+#head {
+    width: 100%; /*宽度*/
+    height: 100px; /*高度*/
+    display: flex; /*弹性布局*/
+    justify-content: center; /*主轴对齐方式*/
+    align-items: center; /*交叉轴对齐方式*/
+    background: black; /*背景颜色*/
+}
+
+#head p {
+    font-size: 40px; /*字体大小*/
+    font-weight: 400; /*字体粗细*/
+    color: white; /*字体颜色*/
+}
+
+#input {
+    width: 100%; /*宽度*/
+    height: 300px; /*高度*/
+    margin: 20px; /*外边距*/
+    display: flex; /*弹性布局*/
+    flex-direction: column; /*弹性布局方向*/
+    justify-content: center; /*主轴对齐方式*/
+    align-items: center; /*交叉轴对齐方式*/
+}
+
+#text {
+    width: 100%; /*宽度*/
+    height: 300px; /*高度*/
+    border: 1px solid black; /*边框*/
+}
+
+#btn {
+    width: 80%; /*宽度*/
+    margin: 30px; /*外边距*/
+    padding: 30px; /*内边距*/
+    font-size: 36px; /*字体大小*/
+    font-weight: 400; /*字体粗细*/
+    align-items: center; /*交叉轴对齐方式*/
+    justify-content: center;
+    color: white;
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 25px;
+}
+
+#result_view
+{  
+    width: 100%; /*宽度*/
+    height: 200px; /*高度*/
+    border: 1px solid black; /*边框*/
+    margin: 20px; /*外边距*/
+    display: flex; /*弹性布局*/
+    flex-direction: column; /*弹性布局方向*/
+    justify-content: center; /*主轴对齐方式*/
+    align-items: center; /*交叉轴对齐方式*/
+}

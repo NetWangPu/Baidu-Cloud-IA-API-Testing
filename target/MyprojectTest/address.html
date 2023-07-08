@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地址识别</title>
+    <!--引入CSS样式-->
+    <link rel="stylesheet" type="text/css" href="css/address.css">
+    <!--JS文件-->
+    <script type="application/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="application/javascript" src="js/address.js"></script>
+</head>
+<body>
+<div class="box">
+    <!--标题部分-->
+    <div class="head">
+        <p>地址识别</p>
+    </div>
+    <!--用户输入 和 交互区域-->
+    <div class="user_input">
+        <textarea class="text" placeholder="输入要识别的地址和用户信息..."></textarea>
+        <button type="submit" class="btn">识别</button>
+    </div>
+    <!--结果展示区域-->
+    <div class="view">
+        <div>
+            <span>省份：</span><a class="province"></a>
+        </div>
+        <div>
+            <span>城市：</span><a class="city"></a>
+        </div>
+        <div>
+            <span>区县：</span><a class="county"></a>
+        </div>
+        <div>
+            <span>街道：</span><a class="town"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

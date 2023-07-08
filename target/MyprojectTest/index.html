@@ -1,0 +1,75 @@
+<!--AI智能工具-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>在线智能工具</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/index.css" />
+</head>
+<body>
+    <div id="box">
+        <div id="head">
+            <p>智能工具箱</p>
+        </div>
+        <div id="banner">
+            <img src="images/banner.png" alt="banner">
+        </div>
+        <div id= "navigation">
+            <p>语音技术</p>
+            <p>文字识别</p>
+            <p>人脸与人体</p>
+            <p>图像识别</p>
+            <p>语言和知识</p>
+        </div>
+<!--        公共区域 -->
+        <div id="view">
+            <!--思路：把所有模块的内容都编写出来，然后隐藏掉不需要，只展示需要展示的内容，就完成效果-->
+            <!--该section里面是 语音技术 模块要展示的功能内容-->
+            <section id="audio_tec">
+                <p>语音识别</p>
+                <div>
+                    <a>短语音识别</a>
+                    <a>音频文件转写</a>
+                </div>
+                <p>语音合成</p>
+                <div>
+                    <a>短文本在线合成</a>
+                </div>
+                <p>语音翻译</p>
+                <div>
+                    <a>语音翻译API</a>
+                </div>
+            </section>
+            <!--该section里面是 文字识别 模块要展示的功能内容-->
+            <section id="txt_ocr">
+                <p>通用场景文字识别</p>
+                <div>
+                    <a>通用文字识别</a>
+                    <!--货币识别功能的页面入口-->
+                    <a href="currency.html">货币识别</a>
+                    <a href="redwine.html">红酒</a>
+                </div>
+                <p>卡证文字识别</p>
+                <p>交通场景文字识别</p>
+            </section>
+            <!--该section里面是 人脸与人体 模块要展示的功能内容-->
+            <section id="face_body">
+
+            </section>
+            <!--该section里面是 图像技术 模块要展示的功能内容-->
+            <section id="img_tec">
+
+            </section>
+            <!--该section里面是 语言与知识 模块要展示的功能内容-->
+            <section id="lang_kno">
+                <p>语言理解</p>
+                <div>
+                    <a href="address.html">地址识别</a>
+                    <a href="qinggan.html">情感倾向分析</a>
+                    <a href="textsim.html">文本相似度识别</a>
+                    <a href="texterror.html">文本纠错</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

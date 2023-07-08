@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+#head p {
+    font-size: 40px;
+    size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+/**
+ * 对用户输入区域控件进行样式设置
+ */
+
+#input{
+    width: 100%;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+}
+
+#btn{
+    flex: 1;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 25px;
+}
+
+#result_view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result_view div{
+    flex: 1;
+    width: 90%;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    border: 1px solid black;
+}
+
+#result_view span{
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+}
+
+#result_view a{
+    font-weight: 500;
+    font-size: 30px;
+    color: dodgerblue;
+}

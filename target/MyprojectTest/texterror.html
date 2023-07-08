@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本纠错</title>
+    <!--导入css样式文件-->
+    <link rel="stylesheet" type="text/css" href="css/texterror.css">
+    <!--导入js文件，实现交互-->
+    <script charset="UTF-8" src="js/jquery-3.5.1.js"></script>
+    <script charset="UTF-8" src="js/texterror.js"></script>
+</head>
+<body>
+<div id="box">
+    <!--标题-->
+    <div id="head">
+        <p>文本纠错</p>
+    </div>
+    <!--用户输入-->
+    <div id="input">
+        <textarea id="text" placeholder="请输入要分析的内容..."></textarea>
+        <button type="submit" id="btn">分析</button>
+    </div>
+
+    <!--分析结果展示-->
+    <div id="result_view">
+        <div>
+            <span>纠错后文本：</span><a id="texterror"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
